@@ -43,4 +43,3 @@ function analyzeData(data) {
 
     document.getElementById("analysisResult").innerHTML = result;
 }
-analyzeData(text);
