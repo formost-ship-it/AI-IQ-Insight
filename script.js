@@ -41,5 +41,6 @@ function analyzeData(data) {
         result = "ระดับข้อมูล: ต่ำ<br>รูปแบบ: ข้อมูลน้อย";
     }
 
-    document.getElementById("analysisResult").innerHTML = result;
-}
+    document.getElementById("time").innerText =
+    timeMatch ? timeMatch[0] : "-";
+    analyzeData(text);
