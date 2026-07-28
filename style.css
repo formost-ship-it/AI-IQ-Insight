@@ -56,3 +56,25 @@ p {
     font-size: 18px;
     margin: 10px 0;
   }
+/* ส่วนผลวิเคราะห์ */
+#analysisResult {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #f0f0f0;
+    font-size: 18px;
+}
+
+/* ส่วนข้อมูลที่แยกออกมา */
+#separatedResult {
+    margin-top: 20px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* ปุ่ม */
+button {
+    padding: 12px 20px;
+    cursor: pointer;
+}
