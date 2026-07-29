@@ -24,6 +24,10 @@ function parseSignal() {
 
     document.getElementById("time").innerText =
         timeMatch ? timeMatch[0] : "-";
+    document.getElementById("time").innerText =
+    timeMatch ? timeMatch[0] : "-";
+
+analyzeData(text);
 }
 function analyzeData(data) {
 
@@ -41,6 +45,9 @@ function analyzeData(data) {
         result = "ระดับข้อมูล: ต่ำ<br>รูปแบบ: ข้อมูลน้อย";
     }
 
-    document.getElementById("time").innerText =
-    timeMatch ? timeMatch[0] : "-";
-    analyzeData(text);
+    function analyzeData(data) {
+
+    document.getElementById("analysisResult").innerHTML =
+    "วิเคราะห์ข้อมูลแล้ว: " + data;
+
+    }
